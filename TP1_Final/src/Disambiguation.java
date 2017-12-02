@@ -48,10 +48,6 @@ public class Disambiguation {
                      * TODO CODE HERE to disambiguate the entity.
                      */
                     String correspondingYagoEntity = Disambiguation(db, pageContent, pageLabel);
-
-					if (correspondingYagoEntity != null) {
-						// System.out.println(pageTitle + "\t" + correspondingYagoEntity);
-					}
                     out.write(pageTitle + "\t" + correspondingYagoEntity + "\n");
                 }
             }
